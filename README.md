@@ -18,5 +18,5 @@ RAGify is a Flask-based Retrieval-Augmented Generation (RAG) pipeline for proces
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd ragify
+   git clone https://github.com/charan1910/chat_rag.git
+   cd chatrag
