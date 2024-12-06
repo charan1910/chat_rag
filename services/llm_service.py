@@ -3,8 +3,7 @@ from langchain import LLMChain, PromptTemplate
 from langchain.memory import ConversationBufferMemory
 import requests
 import numpy as np
-from config import api_key
-
+import config as conf
 
 class GrokLLM(LLM):
     api_key: str
@@ -29,7 +28,7 @@ def retrieve_relevant_chunks(index, question, model):
     return indices
 
 def initialize_chain():
-    grok_llm = GrokLLM(api_key=api_key)
+    grok_llm = GrokLLM(api_key=conf.api_key)
     template = "The conversation so far:\n{chat_history}\n\nThe user asked: {question}\nProvide a helpful and concise answer."
     prompt = PromptTemplate(template=template, input_variables=["chat_history", "question"])
     memory = ConversationBufferMemory(memory_key="chat_history", input_key="question")

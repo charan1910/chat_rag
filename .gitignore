@@ -17,4 +17,4 @@ Thumbs.db
 uploads/*
 
 # Ignore config file
-*/config.py
+config.py
