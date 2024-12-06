@@ -19,4 +19,4 @@ Chat RAG is a Flask-based Retrieval-Augmented Generation (RAG) pipeline for proc
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/charan1910/chat_rag.git
-   cd chatrag
+   cd chat_rag
