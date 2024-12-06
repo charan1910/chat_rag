@@ -1,4 +1,4 @@
-# RAGify: Retrieval-Augmented Generation Pipeline
+# CHAT_RAG: Retrieval-Augmented Generation Pipeline
 
 RAGify is a Flask-based Retrieval-Augmented Generation (RAG) pipeline for processing and querying large documents. It combines the power of document chunking, embedding-based retrieval, and generative AI to deliver contextual answers.
 
