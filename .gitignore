@@ -15,3 +15,6 @@ Thumbs.db
 
 # Ignore Uploaded docs
 uploads/*
+
+# Ignore config file
+*/config.py
